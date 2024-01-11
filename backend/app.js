@@ -6,7 +6,6 @@ const cors = require("cors"); // Import the cors middleware
 
 const app = express();
 const PORT = process.env.PORT || 3005;
-//test
 // Connexion à MongoDB
 mongoose.connect(
   "mongodb+srv://houcem:houcem@cluster0.29zpygz.mongodb.net/carspark?retryWrites=true&w=majority",
